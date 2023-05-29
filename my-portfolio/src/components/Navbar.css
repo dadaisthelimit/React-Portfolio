@@ -1,0 +1,34 @@
+/* Style Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Navbar Styling */
+.navbar {
+    background-color: green;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;    
+    z-index: 999;
+  }
+ 
+.navbar-item {
+    color: white;
+  }
+  
+.navbar-link {
+    cursor: pointer;
+  }
+  
+.navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+/* Add spacing below the navbar to prevent content overlap */
+  body {
+    padding-top: 70px;
+  }

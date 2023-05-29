@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.about-me-left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-me-name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-me-paragraph {
+  font-size: 26px;
+}
+
+.about-me-right {
+  flex: 1;
+}
+
+.about-me-picture {
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+}
